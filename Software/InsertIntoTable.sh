@@ -32,7 +32,7 @@ function validType {
         then 
             return 0 
         else 
-            echo "The value should be a String." 
+            echo "The value should be an Integer." 
             return 1 
         fi 
     fi 
@@ -42,7 +42,7 @@ function validType {
         then 
             return 0 
         else 
-            echo "The value should be an Integer." 
+            echo "The value should be a String." 
             return 1 
         fi 
     fi 

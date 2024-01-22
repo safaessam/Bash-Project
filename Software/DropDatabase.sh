@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../databases
+cd ../Databases
 
 while true; do
     echo "Type your database number to delete (or 0 to exit): "

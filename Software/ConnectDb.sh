@@ -26,7 +26,7 @@ echo
 
 echo "Type your choice number: "
 echo "---------------------------------------"
-select choice2 in "Create Table" "List Tables" "Drop Tables" "Insert Into Table" "SelectTable" "Delete From Table" "Update Table" "Quit"; do
+select choice2 in "Create Table" "List Tables" "Drop Tables" "Insert Into Table" "Select Table" "Delete From Table" "Update Table" "Quit"; do
     case $choice2 in
         "Create Table")
             echo "Create Table"
